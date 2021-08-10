@@ -17,3 +17,6 @@ def count(request,angka):
 
 def example(request):
     return render(request, 'example.html')
+
+def newpage(request):
+    return HttpResponse("new")
