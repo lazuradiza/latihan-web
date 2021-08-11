@@ -18,5 +18,11 @@ def count(request,angka):
 def example(request):
     return render(request, 'example.html')
 
-def newpage(request):
-    return HttpResponse("new")
+def shop(request):
+    return render(request,"shop.html")
+
+def first(request):
+    return render(request,"firstpage.html")
+
+def second(request):
+    return render(request,"secondpage.html")
